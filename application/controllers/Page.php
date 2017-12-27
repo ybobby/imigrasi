@@ -14,4 +14,9 @@ class Page extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+
+	public function profile()
+	{
+		$this->load->view('profile');
+	}
 }
