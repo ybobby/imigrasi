@@ -11,7 +11,7 @@
         <div class="ks-navbar-logo">
             <a href="index.html" class="ks-logo">IMIGRASI BOGOR</a>
 
-            <span class="nav-item dropdown ks-dropdown-grid-images">
+            <!-- <span class="nav-item dropdown ks-dropdown-grid-images">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"></a>
                 <div class="dropdown-menu ks-info ks-scrollable" aria-labelledby="Preview" data-height="260">
                     <div class="ks-scroll-wrapper">
@@ -41,7 +41,7 @@
                         </a>
                     </div>
                 </div>
-            </span>
+            </span> -->
 
             <!-- END GRID NAVIGATION -->
         </div>
@@ -69,7 +69,7 @@
                         </a>
                     </div>
                 </form>
-                <a class="nav-item nav-link" href="#">Dashboard</a>
+                <!-- <a class="nav-item nav-link" href="#">Dashboard</a>
                 <div class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         Dropdown
@@ -92,7 +92,7 @@
                 </div>
                 <div class="nav-item nav-link ks-btn-action">
                     <a class="btn btn-info" href="https://themeforest.net/item/kosmo-multi-purpose-responsive-bootstrap-4-admin-template-ui-framework/19506620?ref=themesanytime">Buy Now!</a>
-                </div>
+                </div> -->
             </div>
             <!-- END NAVBAR MENU -->
 
@@ -101,14 +101,14 @@
                 <!-- BEGIN NAVBAR ACTION BUTTON -->
                 <div class="nav-item nav-link btn-action-block">
                     <a class="btn btn-danger" href="#">
-                        <span class="ks-action">Activate Your Account</span>
-                        <span class="ks-description">trial ends in 1 day</span>
+                        <span class="ks-action">Alert Izin Tinggal WNA !</span>
+                        <span class="ks-description">Berakhir 1 minggu ke depan</span>
                     </a>
                 </div>
                 <!-- END NAVBAR ACTION BUTTON -->
 
                 <!-- BEGIN NAVBAR LANGUAGES -->
-                <div class="nav-item dropdown ks-languages">
+                <!-- <div class="nav-item dropdown ks-languages">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         EN <span class="ks-text">Languages</span>
                     </a>
@@ -172,11 +172,11 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- END NAVBAR LANGUAGES -->
 
                 <!-- BEGIN NAVBAR MESSAGES -->
-                <div class="nav-item dropdown ks-messages">
+                <!-- <div class="nav-item dropdown ks-messages">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         <span class="la la-envelope ks-icon" aria-hidden="true">
                             <span class="badge badge-pill badge-info">3</span>
@@ -255,27 +255,27 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- END NAVBAR MESSAGES -->
 
                 <!-- BEGIN NAVBAR NOTIFICATIONS -->
                 <div class="nav-item dropdown ks-notifications">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         <span class="la la-bell ks-icon" aria-hidden="true">
-                            <span class="badge badge-pill badge-info">7</span>
+                            <span class="badge badge-pill badge-info">5</span>
                         </span>
-                        <span class="ks-text">Notifications</span>
+                        <span class="ks-text">Notifikasi</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="Preview">
                         <ul class="nav nav-tabs ks-nav-tabs ks-info" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" data-toggle="tab" data-target="#navbar-notifications-all" role="tab">All</a>
+                                <a class="nav-link active" href="#" data-toggle="tab" data-target="#navbar-notifications-all" role="tab">Semua</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="tab" data-target="#navbar-notifications-activity" role="tab">Activity</a>
+                                <a class="nav-link" href="#" data-toggle="tab" data-target="#navbar-notifications-activity" role="tab">Izin Tinggal</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="tab" data-target="#navbar-notifications-comments" role="tab">Comments</a>
+                                <a class="nav-link" href="#" data-toggle="tab" data-target="#navbar-notifications-comments" role="tab">Kegiatan</a>
                             </li>
                         </ul>
                         <div class="tab-content">
@@ -286,21 +286,19 @@
                                             <img src="<?=base_url()?>assets/img/avatars/avatar-3.jpg" width="36" height="36">
                                         </div>
                                         <div class="ks-info">
-                                            <div class="ks-user-name">Emily Carter <span class="ks-description">has uploaded 1 file</span></div>
-                                            <div class="ks-text"><span class="la la-file-text-o ks-icon"></span> logo vector doc</div>
-                                            <div class="ks-datetime">1 minute ago</div>
+                                            <div class="ks-user-name">Advani Bhojraj <span class="ks-description"></span></div>
+                                            <div class="ks-text"><span class="la la-file-text-o ks-icon"></span> Visa Habis 25 Desember 2017</div>
+                                            <div class="ks-datetime">4 hari yang lalu</div>
                                         </div>
                                     </a>
                                     <a href="#" class="ks-notification">
-                                        <div class="ks-action">
-                                            <span class="ks-default">
-                                                <span class="la la-briefcase ks-icon"></span>
-                                            </span>
+                                        <div class="ks-avatar">
+                                            <img src="<?=base_url()?>assets/img/avatars/avatar-5.jpg" width="36" height="36">
                                         </div>
                                         <div class="ks-info">
-                                            <div class="ks-user-name">New project created</div>
-                                            <div class="ks-text">Dashboard UI</div>
-                                            <div class="ks-datetime">1 minute ago</div>
+                                            <div class="ks-user-name">Zhang Dong <span class="ks-description"></span></div>
+                                            <div class="ks-text"><span class="la la-file-text-o ks-icon"></span> Visa Habis 23 Desember 2017</div>
+                                            <div class="ks-datetime">6 hari yang lalu</div>
                                         </div>
                                     </a>
                                     <a href="#" class="ks-notification">
@@ -311,21 +309,21 @@
                                         </div>
                                         <div class="ks-info">
                                             <div class="ks-user-name">File upload error</div>
-                                            <div class="ks-text"><span class="la la-file-text-o ks-icon"></span> logo vector doc</div>
-                                            <div class="ks-datetime">10 minutes ago</div>
+                                            <div class="ks-text"><span class="la la-file-text-o ks-icon"></span> export data e-office</div>
+                                            <div class="ks-datetime">17 hari yang lalu</div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="ks-view-all">
-                                    <a href="#">Show more</a>
+                                    <a href="#">Selengkapnya</a>
                                 </div>
                             </div>
                             <div class="tab-pane ks-empty" id="navbar-notifications-activity" role="tabpanel">
-                                There are no activities.
+                                Demo Sample.
                             </div>
                             <div class="tab-pane ks-empty" id="navbar-notifications-comments" role="tabpanel">
-                                There are no comments.
+                                Demo Sample.
                             </div>
                         </div>
                     </div>

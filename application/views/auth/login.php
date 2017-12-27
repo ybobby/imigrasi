@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KANTOR IMIGRASI KELAS I BOGOR</title>
+    <title>KANTOR IMIGRASI KELAS I BOGOR - APLIKASI PENGAWASAN IZIN TINGGAL WNA</title>
 
     <meta http-equiv="X-UA-Compatible" content=="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
