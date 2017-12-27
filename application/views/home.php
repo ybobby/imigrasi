@@ -2,42 +2,7 @@
 <html lang="en">
 
 <!-- BEGIN HEAD -->
-<<<<<<< HEAD
 <?php $this->load->view('header')?>
-=======
-<head>
-    <meta charset="UTF-8">
-    <title>KANIM KELAS I BOGOR - APLIKASI DATA ORANG ASING</title>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/line-awesome/css/line-awesome.min.css">
-    <!--<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/open-sans/styles.css">-->
-
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/montserrat/styles.css">
-
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/tether/css/tether.min.css">
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/jscrollpane/jquery.jscrollpane.css">
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/common.min.css">
-    <!-- END GLOBAL MANDATORY STYLES -->
-
-    <!-- BEGIN THEME STYLES -->
-    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/themes/primary.min.css">    <link class="ks-sidebar-dark-style" rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/themes/sidebar-black.min.css">
-    <!-- END THEME STYLES -->
-
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/kosmo/styles.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/weather/css/weather-icons.min.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/c3js/c3.min.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/noty/noty.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/widgets/payment.min.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/widgets/panels.min.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/dashboard/tabbed-sidebar.min.css">
-</head>
->>>>>>> 01ee2d4c89b97bc45e7ab2092703bf9a1f79855c
 <!-- END HEAD -->
 
 <body class="ks-navbar-fixed ks-sidebar-default ks-sidebar-position-fixed ks-page-header-fixed ks-theme-primary ks-page-loading"> <!-- remove ks-page-header-fixed to unfix header -->
@@ -117,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-            </li>            
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="ks-icon la la-flask"></span>
@@ -357,7 +322,7 @@
                         </div>
                     </div>
                 </div>
-            </li>            
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="ks-icon la la-puzzle-piece"><span class="badge badge-pill badge-pink ks-label">3</span></span>
@@ -2349,102 +2314,129 @@
 <?php
     $this->load->view('main_lib');
 ?>
+
+<script src="libs/bootstrap-table/bootstrap-table.min.js"></script>
+<script src="libs/bootstrap-table/extensions/mobile/bootstrap-table-mobile.js"></script>
 <script type="application/javascript">
 (function ($) {
-    $(document).ready(function () {
-        c3.generate({
-            bindto: '#ks-next-payout-chart',
-            data: {
-                columns: [
-                    ['data1', 6, 5, 6, 5, 7, 8, 7]
-                ],
-                types: {
-                    data1: 'area'
-                },
-                colors: {
-                    data1: '#81c159'
-                }
-            },
-            legend: {
-                show: false
-            },
-            tooltip: {
-                show: false
-            },
-            point: {
-                show: false
-            },
-            axis: {
-                x: {show:false},
-                y: {show:false}
+    var data = [
+        {
+            "id": 0,
+            "name": "Item 0",
+            "price": "$0"
+        },
+        {
+            "id": 1,
+            "name": "Item 1",
+            "price": "$1"
+        },
+        {
+            "id": 2,
+            "name": "Item 2",
+            "price": "$2"
+        },
+        {
+            "id": 3,
+            "name": "Item 3",
+            "price": "$3"
+        },
+        {
+            "id": 4,
+            "name": "Item 4",
+            "price": "$4"
+        },
+        {
+            "id": 5,
+            "name": "Item 5",
+            "price": "$5"
+        },
+        {
+            "id": 6,
+            "name": "Item 6",
+            "price": "$6"
+        },
+        {
+            "id": 7,
+            "name": "Item 7",
+            "price": "$7"
+        },
+        {
+            "id": 8,
+            "name": "Item 8",
+            "price": "$8"
+        },
+        {
+            "id": 9,
+            "name": "Item 9",
+            "price": "$9"
+        },
+        {
+            "id": 10,
+            "name": "Item 10",
+            "price": "$10"
+        },
+        {
+            "id": 11,
+            "name": "Item 11",
+            "price": "$11"
+        },
+        {
+            "id": 12,
+            "name": "Item 12",
+            "price": "$12"
+        },
+        {
+            "id": 13,
+            "name": "Item 13",
+            "price": "$13"
+        },
+        {
+            "id": 14,
+            "name": "Item 14",
+            "price": "$14"
+        },
+        {
+            "id": 15,
+            "name": "Item 15",
+            "price": "$15"
+        },
+        {
+            "id": 16,
+            "name": "Item 16",
+            "price": "$16"
+        },
+        {
+            "id": 17,
+            "name": "Item 17",
+            "price": "$17"
+        },
+        {
+            "id": 18,
+            "name": "Item 18",
+            "price": "$18"
+        },
+        {
+            "id": 19,
+            "name": "Item 19",
+            "price": "$19"
+        },
+        {
+            "id": 20,
+            "name": "Item 20",
+            "price": "$20"
+        }
+    ];
+
+    $(document).ready(function() {
+        $('#ks-datatable').bootstrapTable({
+            data: data,
+            icons: {
+                refresh: 'la la-refresh icon-refresh',
+                toggle: 'la la-list-alt icon-list-alt',
+                columns: 'la la-th icon-th',
+                share: 'la la-download icon-share'
             }
         });
-
-        c3.generate({
-            bindto: '#ks-total-earning-chart',
-            data: {
-                columns: [
-                    ['data1', 6, 5, 6, 5, 7, 8, 7]
-                ],
-                types: {
-                    data1: 'area'
-                },
-                colors: {
-                    data1: '#4e54a8'
-                }
-            },
-            legend: {
-                show: false
-            },
-            tooltip: {
-                show: false
-            },
-            point: {
-                show: false
-            },
-            axis: {
-                x: {show:false},
-                y: {show:false}
-            }
-        });
-
-        c3.generate({
-            bindto: '.ks-chart-orders-block',
-            data: {
-                columns: [
-                    ['Revenue', 150, 200, 220, 280, 400, 160, 260, 400, 300, 400, 500, 420, 500, 300, 200, 100, 400, 600, 300, 360, 600],
-                    ['Profit', 350, 300,  200, 140, 200, 30, 200, 100, 400, 600, 300, 200, 100, 50, 200, 600, 300, 500, 30, 200, 320]
-                ],
-                colors: {
-                    'Revenue': '#f88528',
-                    'Profit': '#81c159'
-                }
-            },
-            point: {
-                r: 5
-            },
-            grid: {
-                y: {
-                    show: true
-                }
-            }
-        });
-
-        setTimeout(function () {
-            new Noty({
-                text: '<strong>Versi Demo : Aplikasi Imigrasi Bogor</strong>! <br> Sedang dalam tahap pengembangan.',
-                type   : 'information',
-                theme  : 'mint',
-                layout : 'topRight',
-                timeout: 3000
-            }).show();
-        }, 1500);
-
-        var maplace = new Maplace({
-            map_div: '#ks-payment-widget-table-and-map-map',
-            controls_on_map: false
-        });
-        maplace.Load();
     });
 })(jQuery);
 </script>
