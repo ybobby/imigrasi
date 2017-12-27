@@ -18,7 +18,7 @@
 
 <div class="ks-page">
     <div class="ks-page-header">
-        <a href="#" class="ks-logo">KANIM KELAS I BOGOR</a>
+        <a href="#" class="ks-logo">KANIM KELAS I BOGOR - LOGIN APLIKASI</a>
     </div>
     <div class="ks-page-content">
         <div class="ks-logo">KANIM KELAS I BOGOR</div>

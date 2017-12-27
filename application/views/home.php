@@ -2,7 +2,42 @@
 <html lang="en">
 
 <!-- BEGIN HEAD -->
+<<<<<<< HEAD
 <?php $this->load->view('header')?>
+=======
+<head>
+    <meta charset="UTF-8">
+    <title>KANIM KELAS I BOGOR - APLIKASI DATA ORANG ASING</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/line-awesome/css/line-awesome.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/open-sans/styles.css">-->
+
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/montserrat/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/tether/css/tether.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/jscrollpane/jquery.jscrollpane.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/common.min.css">
+    <!-- END GLOBAL MANDATORY STYLES -->
+
+    <!-- BEGIN THEME STYLES -->
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/themes/primary.min.css">    <link class="ks-sidebar-dark-style" rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/themes/sidebar-black.min.css">
+    <!-- END THEME STYLES -->
+
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/kosmo/styles.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/weather/css/weather-icons.min.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/c3js/c3.min.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/noty/noty.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/widgets/payment.min.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/widgets/panels.min.css">
+<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/dashboard/tabbed-sidebar.min.css">
+</head>
+>>>>>>> 01ee2d4c89b97bc45e7ab2092703bf9a1f79855c
 <!-- END HEAD -->
 
 <body class="ks-navbar-fixed ks-sidebar-default ks-sidebar-position-fixed ks-page-header-fixed ks-theme-primary ks-page-loading"> <!-- remove ks-page-header-fixed to unfix header -->
@@ -26,7 +61,7 @@
                     </div>
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="profile-social-profile.html">Profile</a>
+                    <a class="dropdown-item" href="<?=base_url()?>/page/profile">Profil</a>
                     <a class="dropdown-item" href="profile-settings-general.html">Settings</a>
                     <a class="dropdown-item" href="<?=base_url()?>auth/logout">Logout</a>
                 </div>
@@ -42,6 +77,16 @@
                     <a class="dropdown-item" href="dashboards-mail.html">Mail</a>
                     <a class="dropdown-item" href="dashboards-projects.html">Projects</a>
                     <a class="dropdown-item" href="dashboards-widgets-and-activity.html">Activity</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <span class="ks-icon la la-th"></span>
+                    <span>Tabel Data</span>
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="datatables-datatables-net.html">Tabel Sponsor</a>
+                    <a class="dropdown-item" href="datatables-bootstrap-table.html">Tabel Orang Asing</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -72,7 +117,7 @@
                         </div>
                     </div>
                 </div>
-            </li>
+            </li>            
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="ks-icon la la-flask"></span>
@@ -312,17 +357,7 @@
                         </div>
                     </div>
                 </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    <span class="ks-icon la la-th"></span>
-                    <span>DataTables</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="datatables-datatables-net.html">DataTables.net</a>
-                    <a class="dropdown-item" href="datatables-bootstrap-table.html">Bootstrap Table</a>
-                </div>
-            </li>
+            </li>            
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="ks-icon la la-puzzle-piece"><span class="badge badge-pill badge-pink ks-label">3</span></span>

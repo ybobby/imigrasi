@@ -333,7 +333,7 @@
                 <!-- END NAVBAR NOTIFICATIONS -->
 
                 <!-- BEGIN NAVBAR USER -->
-                <div class="nav-item dropdown ks-user">
+                <!--<div class="nav-item dropdown ks-user">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                         <span class="ks-avatar">
                             <img src="<?=base_url()?>assets/img/avatars/avatar-13.jpg" width="36" height="36">
@@ -361,7 +361,7 @@
                             <span>Logout</span>
                         </a>
                     </div>
-                </div>
+                </div>-->
                 <!-- END NAVBAR USER -->
             </div>
             <!-- END NAVBAR ACTIONS -->
