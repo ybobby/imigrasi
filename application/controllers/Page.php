@@ -19,4 +19,9 @@ class Page extends CI_Controller {
 	{
 		$this->load->view('profile');
 	}
+
+	public function sidebar()
+	{
+		$this->load->view('sidebar');
+	}
 }
