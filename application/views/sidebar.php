@@ -22,7 +22,7 @@
                     <span>Dashboard</span>
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item ks-active" href="index.html">Halaman Utama</a>
+                    <a class="dropdown-item ks-active" href="<?=base_url()?>page">Halaman Utama</a>
                     <!-- <a class="dropdown-item" href="dashboards-draggable-widgets.html">Draggable Widgets</a>
                     <a class="dropdown-item" href="dashboards-mail.html">Mail</a>
                     <a class="dropdown-item" href="dashboards-projects.html">Projects</a>
@@ -63,7 +63,7 @@
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="datatables-datatables-net.html">Tabel Sponsor</a>
-                    <a class="dropdown-item" href="datatables-bootstrap-table.html">Tabel WNA</a>
+                    <a class="dropdown-item" href="<?=base_url()?>show">Tabel WNA</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
