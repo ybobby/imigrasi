@@ -59,11 +59,11 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"  href="#" role="button" aria-haspopup="true" aria-expanded="false">
                     <span class="ks-icon la la-th"></span>
-                    <span>Tabel WNA</span>
+                    <span>Tabel Data</span>
                 </a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="datatables-datatables-net.html">Tabel Sponsor</a>
-                    <a class="dropdown-item" href="datatables-bootstrap-table.html">Tabel Orang Asing</a>
+                    <a class="dropdown-item" href="datatables-bootstrap-table.html">Tabel WNA</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -72,6 +72,7 @@
                     <span>Alat Bantu</span>
                 </a>
                 <div class="dropdown-menu">
+                    <a class="dropdown-item" href="music-app.html">Daftar Definisi</a>
                     <a class="dropdown-item" href="music-app.html">Import Data E-Office</a>
                 </div>
                 <div class="dropdown-menu">

@@ -12,17 +12,38 @@
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/fonts/open-sans/styles.css">
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/libs/tether/css/tether.min.css">
     <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/common.min.css">
-<link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/pages/auth.min.css">
+    <link rel="stylesheet" type="text/css" href="<?=base_url()?>assets/styles/pages/auth.min.css">
+    <style>
+        body, html 
+            {
+                height: 100%;
+                margin: 0;
+            }
+
+        .bg 
+            {
+                /* The image used */
+                background-image: url("<?=base_url()?>assets/img/indonesia.jpg");
+                /* Full height */
+                height: 100%; 
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+    </style>
+
 </head>
 <body>
 
+<div class="bg">
 <div class="ks-page">
     <div class="ks-page-header">
-        <a href="#" class="ks-logo">KANIM KELAS I BOGOR - LOGIN APLIKASI</a>
+        <a href="#" class="ks-logo">KANIM BOGOR - APLIKASI MONITORING IZIN TINGGAL WNA</a>
     </div>
     <div class="ks-page-content">
-        <div class="ks-logo">KANIM KELAS I BOGOR</div>
-
+        <div class="ks-logo"><img src="<?=base_url()?>assets/img/logo_imigrasi_512.png" class="img-rounded" alt="Logo Imigrasi" width="128" height="128"></div>
         <div class="card panel panel-default ks-light ks-panel ks-login">
             <div class="card-block">
                 <form method="post" action="login" class="form-container">
@@ -55,7 +76,7 @@
         </div>
     </div>
     <div class="ks-footer">
-        <span class="ks-copyright">&copy; 2017 Hope ID</span>
+        <span class="ks-copyright">&copy; 2017 KANIM KELAS I BOGOR</span>
         <ul>
             <li>
                 <a href="#">Privacy Policy</a>
@@ -65,6 +86,7 @@
             </li>
         </ul>
     </div>
+</div>
 </div>
 
 <script src="<?=base_url()?>assets/libs/jquery/jquery.min.js"></script>
